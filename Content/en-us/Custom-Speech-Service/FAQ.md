@@ -76,7 +76,7 @@ If the vast majority of the utterances in an acoustic or language data set (e.g.
 the data set can be usable. However, it is recommended that you try to understand why the utterances failed and fix the problems. 
 Most common problems, such as formatting errors, are easy to fix. 
 
-##Creating AM
+##Creating an Acoustic Model
 
 **Question**: How much acoustic data do I need?
 
@@ -128,7 +128,7 @@ You should aim to beat the baseline model to make the customization worthwhile
 
 **Answer**: The offline test results show accuracy of baseline accuracy of the custom model and the improvement over baseline
 
-##Creating LM
+##Creating a Language Model
 
 **Question**: How much text data do I need to upload
 
@@ -141,7 +141,7 @@ Also if certain types * of queries are expected to be more common than others, y
 
 **Question**: Can I just upload a list of words?
 
-**Answer**: Uploadng a list of words will get the words into to vocabulary but not teach the system how the words are typically used. 
+**Answer**: Uploading a list of words will get the words into to vocabulary but not teach the system how the words are typically used. 
 By providing full or partial utterances (sentences or phrases of things users are likely to say) the language model can learn 
 the new words and how they are used. The custom language model is good not just for getting new words in the system 
 but also for adjusting the likelihood of known words for your application. Providing full utterances helps the system learn this. 
